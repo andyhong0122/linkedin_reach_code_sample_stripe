@@ -190,7 +190,6 @@ namespace Services
             aCharge.ReceiptUrl = reader.GetSafeString(startingIndex++);
             aCharge.CreatedBy = reader.GetSafeInt32(startingIndex++);
             aCharge.ProviderId = reader.GetSafeInt32(startingIndex++);
-
             aCharge.DateCreated = reader.GetSafeDateTime(startingIndex++);
 
             return aCharge;
